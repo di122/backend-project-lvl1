@@ -1,6 +1,6 @@
 {
-  "name": "backend-project-lvl1 122",
-  "version": "1.0.1",
+  "name": "backend-project-lvl1 di122",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/di122/backend-project-lvl1#readme",
   "bin": {
-    "hexlet": "src/bin/brain-games.js"
+    "bg": "src/bin/brain-games.js"
   }
 }
