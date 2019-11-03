@@ -1,8 +1,8 @@
 {
   "name": "bg-di122",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
-  "main": "src/bin/brain-games.js",
+  "main": "./src/bin/brain-games.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/di122/backend-project-lvl1#readme",
   "bin": {
-    "bg": "src/bin/brain-games.js"
+    "bg": "./src/bin/brain-games.js"
   }
 }
