@@ -1,16 +1,16 @@
 {
   "name": "bg-di122",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
-  "main": "./src/bin/brain-games.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
     "prepublishOnly": "npm run build"
   },
   "files": [
-   "dist"
- ],
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/di122/backend-project-lvl1.git"
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/di122/backend-project-lvl1#readme",
   "bin": {
-   "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.4",
