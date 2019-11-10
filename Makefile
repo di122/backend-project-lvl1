@@ -5,4 +5,4 @@ start:
 publish:
 	npm publish
 lint:
-	npx npx eslint .
+	npx eslint .
