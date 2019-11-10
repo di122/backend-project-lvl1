@@ -1,7 +1,7 @@
 {
   "name": "bg-di122",
-  "version": "1.0.5",
-  "description": "",
+  "version": "1.0.6",
+  "description": "brain-games",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/di122/backend-project-lvl1.git"
   },
-  "author": "",
+  "author": "di122",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/di122/backend-project-lvl1/issues"
@@ -28,7 +28,15 @@
     "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.4",
     "@babel/node": "^7.6.3",
-    "@babel/preset-env": "^7.6.3"
+    "@babel/preset-env": "^7.6.3",
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "^7.16.0"
   },
   "dependencies": {
     "readline-sync": "^1.4.10"
