@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import bg from '..';
+import bg from '../index.js';
 
 bg();
