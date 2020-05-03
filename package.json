@@ -3,6 +3,7 @@
   "version": "1.0.7",
   "description": "brain-games",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
@@ -41,4 +42,4 @@
   "dependencies": {
     "readline-sync": "^1.4.10"
   }
-} 
+}
