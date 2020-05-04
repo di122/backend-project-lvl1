@@ -1,5 +1,5 @@
-import { game, limitOfAnswers } from '../index';
-import randomInteger from '../utils';
+import { game, limitOfAnswers } from '../index.js';
+import randomInteger from '../utils.js';
 
 const task = 'Answer "yes" if the number is even, otherwise answer "no".';
 

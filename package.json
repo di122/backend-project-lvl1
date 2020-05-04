@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/di122/backend-project-lvl1#readme",
   "bin": {
+    "brain-calc": "src/bin/brain-calc.js",
     "brain-even": "src/bin/brain-even.js"
   },
   "devDependencies": {
