@@ -1,5 +1,5 @@
-import { game, limitOfAnswers } from '../index.js';
-import randomInteger from '../utils.js';
+import { game, limitOfAnswers } from '../index';
+import randomInteger from '../utils';
 
 const task = 'What number is missing in the progression?';
 

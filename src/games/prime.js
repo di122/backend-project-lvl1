@@ -1,5 +1,5 @@
-import { game, limitOfAnswers } from '../index.js';
-import randomInteger from '../utils.js';
+import { game, limitOfAnswers } from '../index';
+import randomInteger from '../utils';
 
 const task = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
